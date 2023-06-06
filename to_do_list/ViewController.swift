@@ -18,6 +18,9 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if UserDefaults.standard.object(forKey: "toDoList") != nil{
+            toDoList = UserDefaults.standard.object(forKey: "toDoList") as! [String]
+    }
         
     }
    
@@ -39,6 +42,15 @@ class ViewController: UIViewController , UITableViewDataSource, UITableViewDeleg
     
         list.reloadData()
         
+    }
+    func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath)
+    {
+        if editingStyle == UITableViewCell.EditingStyle.delete
+        {
+            toDoList.remove(at: indexPath.row)
+            UserDefaults.standard.set(toDoList, forKey: "toDoList")
+            list.reloadData()
+        }
     }
 }
 

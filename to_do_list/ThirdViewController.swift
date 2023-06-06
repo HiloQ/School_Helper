@@ -20,7 +20,7 @@ class ThirdViewController: UIViewController{
         
         toDoList.append(task.text!)
         task.text = ""
-        
+        UserDefaults.standard.set(toDoList, forKey: "toDoList")
     }
     
     
