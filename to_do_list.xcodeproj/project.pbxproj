@@ -14,6 +14,8 @@
 		8C9C38802A2FA43A0050667E /* to_do_list.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C387E2A2FA43A0050667E /* to_do_list.xcdatamodeld */; };
 		8C9C38822A2FA43B0050667E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C38812A2FA43B0050667E /* Assets.xcassets */; };
 		8C9C38852A2FA43B0050667E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C9C38832A2FA43B0050667E /* LaunchScreen.storyboard */; };
+		8C9C388D2A2FAA270050667E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C388C2A2FAA270050667E /* SecondViewController.swift */; };
+		8C9C388F2A2FAA370050667E /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C9C388E2A2FAA370050667E /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		8C9C38812A2FA43B0050667E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C9C38842A2FA43B0050667E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C9C38862A2FA43B0050667E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9C388C2A2FAA270050667E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = SOURCE_ROOT; };
+		8C9C388E2A2FAA370050667E /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 			children = (
 				8C9C38752A2FA43A0050667E /* AppDelegate.swift */,
 				8C9C38772A2FA43A0050667E /* SceneDelegate.swift */,
+				8C9C388E2A2FAA370050667E /* ThirdViewController.swift */,
+				8C9C388C2A2FAA270050667E /* SecondViewController.swift */,
 				8C9C38792A2FA43A0050667E /* ViewController.swift */,
 				8C9C387B2A2FA43A0050667E /* Main.storyboard */,
 				8C9C38812A2FA43B0050667E /* Assets.xcassets */,
@@ -144,6 +150,8 @@
 				8C9C387A2A2FA43A0050667E /* ViewController.swift in Sources */,
 				8C9C38762A2FA43A0050667E /* AppDelegate.swift in Sources */,
 				8C9C38782A2FA43A0050667E /* SceneDelegate.swift in Sources */,
+				8C9C388D2A2FAA270050667E /* SecondViewController.swift in Sources */,
+				8C9C388F2A2FAA370050667E /* ThirdViewController.swift in Sources */,
 				8C9C38802A2FA43A0050667E /* to_do_list.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
